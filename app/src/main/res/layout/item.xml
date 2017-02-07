@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="200dp"
+        android:id="@+id/filmImage" />
+
+    <TextView
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/eName"
+        android:layout_below="@+id/filmImage"
+        android:text="Anime Name"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="16sp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/vName"
+        android:layout_below="@+id/eName"
+        android:text="Anime Name"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="16sp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="@drawable/item_circle"
+        android:layout_alignBottom="@+id/filmImage"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:gravity="center_vertical"
+        android:fontFamily="sans-serif-condensed"
+        android:id="@+id/filmEpisode"/>
+    
+</RelativeLayout>

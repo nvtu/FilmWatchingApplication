@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/tabColor">
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:id="@+id/epsInfo"
+        android:text="EPS"
+        android:textAlignment="center"
+        android:layout_margin="10dp"
+        android:textSize="16sp"
+        android:gravity="center_vertical"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-light"
+        android:background="@drawable/circular_transparent_button"/>
+
+</LinearLayout>

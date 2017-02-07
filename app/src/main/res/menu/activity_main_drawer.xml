@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/historyList"
+            android:icon="@drawable/history"
+            android:title="History" />
+        <item
+            android:id="@+id/favoriteList"
+            android:icon="@drawable/star"
+            android:title="Favorite" />
+        <item
+            android:id="@+id/friends"
+            android:icon="@drawable/friend"
+            android:title="Who use this app" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/facebook"
+            android:title="Log Out" />
+
+    </group>
+
+</menu>
